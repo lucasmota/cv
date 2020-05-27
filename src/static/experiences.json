@@ -1,0 +1,30 @@
+[
+  {
+    "place": "Dell Technologies",
+    "role": "Senior Software Engineer",
+    "from": "Dec 2019",
+    "to": "",
+    "current": true
+  },
+  {
+    "place": "Hogarth WorldWide ",
+    "role": "Software Developer",
+    "from": "Jul 2018",
+    "to": "Dec 2019",
+    "current": false
+  },
+  {
+    "place": "WebGlobal",
+    "role": "Software Developer",
+    "from": "Jan 2015",
+    "to": "Jul 2018",
+    "current": false
+  },
+  {
+    "place": "Control Information and Documentation",
+    "role": "Web Developer Intern",
+    "from": "Mar 2014",
+    "to": "Dec 2014",
+    "current": false
+  }
+]
