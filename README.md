@@ -9,6 +9,9 @@ Simple project created to demonstrate some React Skills, Styled Components, fold
 * Jest
 
 ### To do
+* Link to LinkedIn
+* Link to github repository
+* Download as PDF button
 * Tests
 
 ### You can see the website working here https://lucasmota.github.io/cv/
