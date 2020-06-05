@@ -4,13 +4,13 @@
     "role": "Associate Degree: Analysis and Systems Development",
     "from": "Jun 2017",
     "to": "Jun 2020",
-    "current": true
+    "current": false
   },
   {
     "place": "Federal Institute of Rio Grande do Sul",
     "role": "High-School Integrated Technician: Information Technology",
     "from": "Jan 2011",
     "to": "Dec 2014",
-    "current": true
+    "current": false
   }
 ]
