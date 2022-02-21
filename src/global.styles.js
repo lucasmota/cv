@@ -3,9 +3,7 @@ import { device } from "./utils/device";
 
 export const GlobalStyle = createGlobalStyle`
   html {
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
+    font: 400 14px/1 'Roboto', sans-serif;
     background-color: #f0eaff;
     color: #444;
     @media ${device.mobileM} {

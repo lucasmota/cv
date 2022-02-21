@@ -7,19 +7,27 @@ import {
   Description,
 } from "./generic-item.styles";
 
-const GenericItem = (props) => (
+const GenericItem = ({data: {role, link, place, from, current, to, description}}) => (
   <GenericItemBox>
-    {props.data.role ? <Role>{props.data.role}</Role> : null}
-    {props.data.place ? <Place>{props.data.place}</Place> : null}
-    {props.data.from ? (
+    {role && <Role>{role}</Role>}
+    {place && (
+      <Place>
+        {link ? 
+          <a href={link} target="_blank" rel="noopener noreferrer">
+            {place} <span role="img" aria-label="link emoji">🔗</span>
+          </a>
+        : place}
+      </Place>
+    )}
+    {from && (
       <Period>
-        {props.data.from}
-        {props.data.current ? " - Current" : (props.data.to ? ` to ${props.data.to}` : null)}
+        {from}
+        {current ? " - Current" : (to ? ` to ${to}` : null)}
       </Period>
-    ) : null}
-    {props.data.description ? (
-      <Description dangerouslySetInnerHTML={{ __html: props.data.description }} />
-    ) : null}
+    )}
+    {description && (
+      <Description dangerouslySetInnerHTML={{ __html: description }} />
+    )}
   </GenericItemBox>
 );
 

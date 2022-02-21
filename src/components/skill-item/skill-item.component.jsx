@@ -1,10 +1,10 @@
 import React from "react";
 import { SkillItemBox, Name, Experience } from "./skill-item.styles";
 
-const Skill = (props) => (
+const Skill = ({skill}) => (
   <SkillItemBox>
-    <Name>{props.skill.name}</Name>
-    <Experience width={props.skill.xp} star={props.skill.star} />
+    <Name>{skill.name}</Name>
+    <Experience width={skill.xp} star={skill.star} />
   </SkillItemBox>
 );
 

@@ -18,10 +18,12 @@ class CvContent extends React.Component {
         <Header
           avatar={Avatar}
           name="Lucas Mota"
-          role="Senior Software engineer"
-          company="Dell"
-          age="23"
+          role="Tech Lead / SWE"
+          company="Convincely"
+          age="25"
           country="Brazil"
+          openSea="https://opensea.io/NFTDarlone"
+          linkedIn="https://www.linkedin.com/in/lucaspmota/"
         />
         <Box>
           <GenericSection title="Introduction" data={intro} />

@@ -35,7 +35,7 @@ export const Experience = styled.div`
   border-radius: 2px;
   &::before {
     content: "";
-    background-color: #5f0073;
+    background-color: #9500f0;
     width: ${(props) => props.width ?? "100"}%;
     height: 100%;
     display: block;

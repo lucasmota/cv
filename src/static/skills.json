@@ -1,122 +1,102 @@
 [
   {
-    "key": "1",
     "name": "JavaScript, Typescript",
     "xp": "100",
     "star": true
   },
   {
-    "key": "2",
-    "name": "React, Redux, GraphQL",
+    "name": "React",
     "xp": "100",
     "star": false
   },
   {
-    "key": "3",
+    "name": "Svelte",
+    "xp": "95",
+    "star": false
+  },
+  {
     "name": "Node.js",
     "xp": "100",
     "star": false
   },
   {
-    "key": "4",
     "name": "VueJS",
-    "xp": "100",
+    "xp": "94",
     "star": false
   },
   {
-    "key": "5",
     "name": "Angular, AngularJS",
-    "xp": "100",
+    "xp": "92",
     "star": false
   },
   {
-    "key": "6",
-    "name": "JQuery",
-    "xp": "100",
-    "star": false
-  },
-  {
-    "key": "7",
     "name": "CSS3, SCSS, Stylus, Less",
     "xp": "100",
     "star": false
   },
   {
-    "key": "8",
-    "name": "Bootstrap 3/4",
-    "xp": "100",
-    "star": false
-  },
-  {
-    "key": "9",
-    "name": "PHP",
-    "xp": "100",
-    "star": false
-  },
-  {
-    "key": "10",
-    "name": "Laravel, CakePHP, Code Igniter",
-    "xp": "100",
-    "star": false
-  },
-  {
-    "key": "11",
-    "name": ".NET Core 2.0, Entity Framework",
-    "xp": "95",
-    "star": false
-  },
-  {
-    "key": "12",
-    "name": "Java",
+    "name": "AWS",
     "xp": "90",
     "star": false
   },
   {
-    "key": "13",
+    "name": "PHP, Laravel",
+    "xp": "100",
+    "star": false
+  },
+  {
+    "name": "Solidity",
+    "xp": "70",
+    "star": false
+  },
+  {
+    "name": "web3.js",
+    "xp": "70",
+    "star": false
+  },
+  {
+    "name": "EVM",
+    "xp": "70",
+    "star": false
+  },
+  {
     "name": "Docker, Jenkins, CI/CD",
     "xp": "100",
     "star": false
   },
   {
-    "key": "14",
     "name": "Jest, Cypress, Mocha",
     "xp": "100",
     "star": false
   },
   {
-    "key": "15",
     "name": "ElasticSearch, MongoDB",
     "xp": "100",
     "star": false
   },
   {
-    "key": "16",
     "name": "MySQL, PostgreSQL",
     "xp": "100",
     "star": false
   },
   {
-    "key": "17",
     "name": "WordPress, Drupal, Umbraco",
     "xp": "100",
     "star": false
   },
   {
-    "key": "18",
-    "name": "JIRA",
+    "name": "JIRA, Asana, Trello",
     "xp": "100",
     "star": false
   },
   {
-    "key": "19",
     "name": "Salesforce, Apex",
-    "xp": "90",
+    "xp": "80",
     "star": false
   },
   {
-    "key": "20",
-    "name": "Python, Machine Learning",
-    "xp": "80",
+    "name": "Java",
+    "xp": "90",
     "star": false
   }
 ]

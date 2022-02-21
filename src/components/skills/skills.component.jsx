@@ -8,8 +8,8 @@ const Skills = (props) => (
   <React.Fragment>
     <SubTitle>Skills</SubTitle>
     <SkillsRow>
-      {skills.map((item) => (
-        <SkillItem skill={item} />
+      {skills.map((item, key) => (
+        <SkillItem key={key} skill={item} />
       ))}
     </SkillsRow>
   </React.Fragment>

@@ -3,13 +3,11 @@ import { Row } from "./generic-section.styles";
 import GenericItem from "../generic-item/generic-item.component";
 import SubTitle from "../sub-title/sub-title.component";
 
-const GenericSection = (props) => (
+const GenericSection = ({title, data}) => (
   <React.Fragment>
-    <SubTitle>{props.title}</SubTitle>
+    <SubTitle>{title}</SubTitle>
     <Row>
-      {props.data.length > 0
-        ? props.data.map((item) => <GenericItem data={item} />)
-        : null}
+      {data.length ? data.map((item, key) => <GenericItem key={key} data={item} />): ''}
     </Row>
   </React.Fragment>
 );

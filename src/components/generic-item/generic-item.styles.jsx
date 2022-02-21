@@ -11,7 +11,7 @@ export const GenericItemBox = styled.div`
 `;
 
 export const Role = styled.h3`
-  color: #5f0073;
+  color: #9500f0;
   font-size: 1.3rem;
   font-weight: 600;
   margin-bottom: 0.2rem;
