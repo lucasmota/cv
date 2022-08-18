@@ -14,7 +14,6 @@ const Header = (props) => (
       </Row>
       <Row>
         <Paragraph>
-          <a href={props.openSea} target="_blank" rel="noopener noreferrer">OpenSea</a>
           <a href={props.linkedIn} target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </Paragraph>
       </Row>

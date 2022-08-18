@@ -11,7 +11,7 @@
   },
   {
     "name": "Svelte",
-    "xp": "95",
+    "xp": "100",
     "star": false
   },
   {
@@ -92,11 +92,6 @@
   {
     "name": "Salesforce, Apex",
     "xp": "80",
-    "star": false
-  },
-  {
-    "name": "Java",
-    "xp": "90",
     "star": false
   }
 ]
